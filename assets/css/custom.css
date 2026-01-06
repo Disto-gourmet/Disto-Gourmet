@@ -3,6 +3,16 @@
   margin: 0 auto 1.5em auto;
 }
 
+#header.alt h1 {
+  font-size: 2rem;
+}
+
+.logo {
+  filter: brightness(0) invert(1);
+  margin-top: 6rem !important;
+  margin-bottom: 6rem !important;
+}
+
 .text-left {
   text-align: left !important;
 }
@@ -30,4 +40,6 @@
   width: 22em !important;
 }
 
-
+body {
+  background: #4a7772 !important;
+}
